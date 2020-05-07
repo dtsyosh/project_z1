@@ -81,7 +81,7 @@ function execSolve(delta_cao, delta_mgo) {
     a = result.ranges.aplicar_a.min;
     b = result.ranges.aplicar_b.min;
 
-    b < 0 ? b == 0 : b;
+    b < 0 ? b = 0 : b;
   }
 
   console.log(result)
