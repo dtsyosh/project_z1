@@ -3,6 +3,12 @@ body {
   background-color: darksalmon;
 }
 
+.footer {
+  padding: 7px;
+  font-size: 10px;
+  color: gray;
+}
+
 .container {
   margin-top: 10px;
 }
